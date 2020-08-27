@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom';
 import Greetings from './Greetings'
 import Counter from './Counter'
+import Counter2 from './Counter2'
 import MyForm from './MyForm'
 import ReducerSample from './ReducerSample';
 
@@ -17,6 +18,7 @@ ReactDOM.render(
     <React.StrictMode>
         <Greetings name="youme" mark="!" onClick={onClick} />
         <Counter />
+        <Counter2 />
         <MyForm onSubmit={onSubmit}/>
         <ReducerSample />
     </React.StrictMode>,
